@@ -1,0 +1,57 @@
+# ==========================================
+# 1. Environment & Secret Keys (CRITICAL)
+# ==========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ==========================================
+# 2. React / Node (Frontend)
+# ==========================================
+node_modules/
+dist/
+dist-ssr/
+build/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================================
+# 3. Spring Boot / Maven (Backend)
+# ==========================================
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.rar
+
+# Maven wrapper files (Optional to ignore if you don't share maven wrapper)
+.mvn/
+mvnw
+mvnw.cmd
+
+# Database/Storage files if local
+*.db
+*.sqlite
+
+# ==========================================
+# 4. IDEs & Editors (VS Code, Eclipse, IntelliJ)
+# ==========================================
+.vscode/
+.idea/
+*.iws
+*.iml
+*.ipr
+.classpath
+.project
+.settings/
+bin/
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
