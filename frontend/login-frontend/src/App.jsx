@@ -23,7 +23,12 @@ const login = async () => {
   };
   return(
     <>
-      
+      <div style={{ "text-align": "center", "margin-top": "20px" }}>
+
+        <h1>Login</h1>
+
+        <input type="text" placeholder="username" value={username} onChange={(e)=>setUsername(e.target.value)} />
+      </div>
     </>
    )
 }
