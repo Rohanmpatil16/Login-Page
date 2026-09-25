@@ -27,7 +27,13 @@ const login = async () => {
 
         <h1>Login</h1>
 
+        
         <input type="text" placeholder="username" value={username} onChange={(e)=>setUsername(e.target.value)} />
+        <input type="text" placeholder="password" value={password} onChange={(e)=>setPassword(e.target.value)}/>
+
+        <button onClick={login}>Login</button>
+
+        <h2>{message}</h2>
       </div>
     </>
    )
